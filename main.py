@@ -1,16 +1,28 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import subprocess
+import wolframalpha
+import pyttsx3
+import tkinter
+import json
+import random
+import operator
+import speech_recognition as sr
+import datetime
+import wikipedia
+import webbrowser
+import os
+import winshell
+import pyjokes
+import feedparser
+import smtplib
+import ctypes
+import time
+import requests
+import shutil
+from twilio.rest import Client
+from clint.textui import progress
+from ecapture import ecapture as ec
+from bs4 import BeautifulSoup
+import win32com.client as wincl
+from urllib.request import urlopen
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
